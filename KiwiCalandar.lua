@@ -1,0 +1,5 @@
+-- KiwiCalandar
+-- Oceanic Calendar is PST time = UTC-8
+-- Oceanic Server time is AEST = UTC+10 or AEDT = UTC+11
+-- NZDT is UTC+13
+-- NZST is UTC+12
