@@ -9,5 +9,6 @@ print(format("The Calendar time is %02d:%02d, %s, %d %s %d", ct.hour, ct.minute,
 --Server Time
 local st = C_DateAndTime.GetServerTime()
 print(format("The Server time is %02d:%02d, %s, %d %s %d", st.hour, st.minute, weekDay, st.monthDay, month, st.year))
+-- Local Time
 local lt = C_DateAndTime.GetServerTimeLocal()
 print(format("The Local time is %02d:%02d, %s, %d %s %d", lt.hour, lt.minute, weekDay, lt.monthDay, month, lt.year))
